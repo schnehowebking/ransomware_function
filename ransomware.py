@@ -70,8 +70,7 @@ class Ransomware:
         return num_encrypted_files
 
     def decrypt_files_in_folder(self, path):
-        key = self.key_obtained()
-        if key != self.key:
+        if (key := self.key_obtained()) != self.key:
             print('Wrong key!')
             return
 
