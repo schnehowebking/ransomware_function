@@ -30,7 +30,7 @@ Creation of basic **ransomware** is a very simple process, as described below, a
 
 - Firstly, we create our **ransomware** and give it a name. <br>
   ```python
-  ransomware = Ransomware('SimpleRansomware')
+  ransomware = Ransomware('WEBKINGRANSOMWARE')
 ```
 Then we must choose a folder with files we want to encrypt. We call the function encrypt_files_in_folder provided by our ransomware and pass the path to the folder as an argument. This function returns the number of encrypted files. <br>
 python
